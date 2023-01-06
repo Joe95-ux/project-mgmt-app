@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/app.js",
+    "dev":"nodemon server/app.js"
+
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,9 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
     "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
   }
 }
