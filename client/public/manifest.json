@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "project mgmt app",
+  "name": "Project management app with graphql",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,12 +10,12 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": ""
     },
     {
-      "src": "logo512.png",
+      "src": "",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": ""
     }
   ],
   "start_url": ".",
